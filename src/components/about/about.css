@@ -1,0 +1,48 @@
+.card__group {
+  margin-top: 4rem;
+  width: 60%;
+  height:35rem;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+span {
+  margin-top: 0.3rem;
+}
+
+.title {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 1.3rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 3rem;
+  background: #00000022;
+  border-radius: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-light);
+  font-weight: 700;
+}
+
+li {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon__li {
+  font-size: 3rem;
+}
+
+.container__slider {
+  padding-bottom: 10rem;
+}

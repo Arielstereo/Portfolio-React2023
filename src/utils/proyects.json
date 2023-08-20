@@ -1,0 +1,36 @@
+{
+  "proyects": [
+    {
+      "id": 1,
+      "name": "E-commerce",
+      "img": "./E-commerce-Next.png",
+      "description": "Next proyect",
+      "github": "https://github.com/Arielstereo/e-commerce-Next",
+      "web": "https://e-commerce-next-arielstereo.vercel.app/"
+    },
+    { 
+      "id": 2,
+      "name": "Post-App",
+      "img": "./Posts-App.png",
+      "description": "MERN proyect",
+      "github": "https://github.com/Arielstereo/MERN-Client",
+      "web": "https://post-app-arielstereo.vercel.app/login"
+    },
+    {
+      "id":3,
+      "name": "Consortia",
+      "img": "./S-O-S-Consortia.png",
+      "description": "Colaboration MERN proyect",
+      "github": "https://github.com/Arielstereo/Consortia-NoCountry",
+      "web": "https://sos-consortia.onrender.com/"
+    },
+    {
+      "id":4,
+      "name": "Portfolio 2022",
+      "img": "./portfolioNuxt.png",
+      "description": "Personal Portfolio Nuxt",
+      "github": "https://github.com/Arielstereo/Portfolio",
+      "web": "https://portfolio-arielstereo.vercel.app/"
+    }
+  ]
+}

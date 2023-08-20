@@ -1,0 +1,85 @@
+import "./contact.css";
+import { BsWhatsapp } from "react-icons/bs";
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
+const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_nqyrm79', 'template_4zh2oxi', form.current, 'Of7EFnHz3zmSna4Kc')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+
+
+  return (
+    <section className="container" id="contact">
+      <h2>Contact me</h2>
+      <div className="container__contact">
+        <div className="container__card">
+          <article className="card__contact">
+            <h3 className="card__title">
+              <MdOutlineAlternateEmail/>
+              Email
+            </h3>
+            <h4>arielstereo@msn.com</h4>
+            <a
+              href="mailto:arielstereo@msn.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Send a message
+            </a>
+          </article>
+          <article className="card__contact">
+            <h3 className="card__title">
+              <BsWhatsapp/>
+              WhatsApp
+            </h3>
+            <h4>+54 11 26922128</h4>
+            <a
+              href="https://api.whatsapp.com/send?phone=1126922128"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Send a message
+            </a>
+          </article>
+        </div>
+        <div>
+          <form ref={form} onSubmit={sendEmail}>
+            <label htmlFor="">Full name</label>
+            <input type="text" name="name" placeholder="Full name" required />
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <label>Send message</label>
+            <textarea
+              name="message"
+              rows="10"
+              placeholder="Send message"
+              required
+            ></textarea>
+            <button type="submit" className="btn__primary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

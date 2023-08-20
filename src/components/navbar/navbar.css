@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  color: white;
+}
+
+nav {
+  background: #00000096;
+  width: max-content;
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin: auto;
+  display: block;
+  z-index: 2;
+  position: fixed;
+  left: 40%;
+  top: 1rem;
+}
+
+nav a {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: var(--color-yellow);
+}
+
+nav a.active {
+ color: var(--color-green);
+}
