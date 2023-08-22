@@ -1,5 +1,7 @@
 footer {
+  position: relative;
   background: var(--color-primary);
+  border-top-left-radius: 10% 60%;
   padding: 6rem;
   text-align: center;
   margin-top:5rem;
@@ -46,4 +48,40 @@ li a:hover {
 
 .icon__copy {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px)  {
+
+  footer {
+    padding:3rem;
+  }
+  .sections {
+    gap: 1.2rem;
+  }
+  .socials__icons {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 800px)  {
+
+  footer {
+    border-top-right-radius: 0%;
+  }
+
+  .sections {
+    flex-direction: column;
+  }
+
+  .socials__icons {
+    flex-direction: column;
+  }
+
+  .container__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
 }

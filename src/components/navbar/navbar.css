@@ -8,17 +8,22 @@ a {
 }
 
 nav {
-  background: #00000096;
+  background: #00000076;
   width: max-content;
   display: block;
   padding: 1rem 2rem;
   border-radius: 2rem;
-  margin: auto;
+  margin: 0 auto;
   display: block;
   z-index: 2;
   position: fixed;
-  left: 40%;
-  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 2rem;
+}
+
+nav:hover {
+  background: var(--color-primary);
 }
 
 nav a {
@@ -27,9 +32,9 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--color-yellow);
+  color: var(--color-bg);
 }
 
 nav a.active {
- color: var(--color-green);
+  color: var(--color-yellow);
 }

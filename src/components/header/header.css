@@ -10,8 +10,8 @@ header {
   border-radius: 0.5rem;
   padding: 0.8rem;
   border: 2px solid var(--color-light);
-  font-size: 500;
-}
+  text-align: center;
+  }
 
 .btn__primary:hover {
   background: var(--color-light);
@@ -25,6 +25,7 @@ header {
   border-radius: 0.5rem;
   padding: 0.8rem 2rem;
   border: 2px solid var(--color-primary);
+  text-align: center;
 }
 
 .btn__secondary:hover {
@@ -60,6 +61,34 @@ header {
 }
 
 .img {
-  width: 50rem;
-  height: 40rem;
+  width: 50%;
+  height: 25%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px)  {
+  header,section {
+    height: 100vh;
+  }
+
+  .img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px)  {
+
+  .header__socials {
+    display: none;
+  }
+
+  .btn {
+    gap: 0.4rem;
+    flex-direction: column;
+  }
+
+  .btn a {
+    font-size: 0.8rem;
+  }
+
 }
