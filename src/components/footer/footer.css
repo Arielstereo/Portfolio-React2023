@@ -66,15 +66,9 @@ li a:hover {
 @media screen and (max-width: 800px)  {
 
   footer {
-    border-top-right-radius: 0%;
-  }
-
-  .sections {
     flex-direction: column;
-  }
-
-  .socials__icons {
-    flex-direction: column;
+    padding:2rem;
+    border-top-left-radius: 0%;
   }
 
   .container__logo {
@@ -82,6 +76,7 @@ li a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 2rem;
   }
 
 }

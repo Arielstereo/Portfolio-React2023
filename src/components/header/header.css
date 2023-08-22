@@ -1,5 +1,5 @@
 header {
-  height: 100%;
+  height: 100vh;
   padding: top 7rem;
   text-align: center;
 }
@@ -82,9 +82,14 @@ header {
     display: none;
   }
 
+  .img {
+    width: 90%;
+    margin-top: 5rem;
+  }
+
   .btn {
     gap: 0.4rem;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .btn a {

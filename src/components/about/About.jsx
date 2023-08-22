@@ -3,13 +3,13 @@ import { AiOutlineStar } from "react-icons/ai";
 import { GiDiploma } from "react-icons/gi";
 import { FaReact } from "react-icons/fa";
 import { BsCheck } from "react-icons/bs";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import 'swiper/css/navigation';
+
 
 const About = () => {
   return (
@@ -17,12 +17,16 @@ const About = () => {
       <h2>About Me</h2>
       <Swiper
         className="card__group"
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        slidesPerView={1}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Pagination, Autoplay]}
       >
         <SwiperSlide className="card">
           <div className="title">
@@ -44,7 +48,8 @@ const About = () => {
               <BsCheck className="icon__li" /> <h2>Equo (trainee 2022)</h2>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h2>No Country (emulation 2023)</h2>
+              <BsCheck className="icon__li" />{" "}
+              <h2>No Country (emulation 2023)</h2>
             </li>
           </ul>
         </SwiperSlide>
