@@ -1,6 +1,6 @@
 import "./header.css";
 import HeaderBtn from "./HeaderBtn";
-import Dev from "../../assets/dev.svg";
+import Dev from "../../assets/dev.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
     <header id="#">
       <div className="container">
         <h1>Ariel Martinez</h1>
-        <h2>Frontend Developer</h2>
+        <h2>Web Developer</h2>
         <HeaderBtn />
         <HeaderSocials />
         <div>

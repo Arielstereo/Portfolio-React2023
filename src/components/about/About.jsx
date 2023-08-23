@@ -34,9 +34,9 @@ const About = () => {
           </div>
           <ul>
             <li>
-              <BsCheck className="icon__li" /> <h2>UTN (2021)</h2>
+              <BsCheck className="icon__li" /> <h3>UTN (2021)</h3>
             </li>
-            <h3>Web Developer Full Stack</h3>
+            <h4>Web Developer Full Stack</h4>
           </ul>
         </SwiperSlide>
         <SwiperSlide className="card">
@@ -45,11 +45,11 @@ const About = () => {
           </div>
           <ul>
             <li>
-              <BsCheck className="icon__li" /> <h2>Equo (trainee 2022)</h2>
+              <BsCheck className="icon__li" /> <h3>Equo (trainee 2022)</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" />{" "}
-              <h2>No Country (emulation 2023)</h2>
+              <BsCheck className="icon__li" />
+              <h3>No Country (emulation 2023)</h3>
             </li>
           </ul>
         </SwiperSlide>
@@ -59,19 +59,19 @@ const About = () => {
           </div>
           <ul>
             <li>
-              <BsCheck className="icon__li" /> <h2>HTML - CSS - JavaScript</h2>
+              <BsCheck className="icon__li" /> <h3>HTML - CSS - JavaScript</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h2>React.js</h2>
+              <BsCheck className="icon__li" /> <h3>React.js</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h2>Node.js (Express)</h2>
+              <BsCheck className="icon__li" /> <h3>Node.js (Express)</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h2>MongoDB</h2>
+              <BsCheck className="icon__li" /> <h3>MongoDB</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h2>Tailwind.css</h2>
+              <BsCheck className="icon__li" /> <h3>Tailwind.css</h3>
             </li>
           </ul>
         </SwiperSlide>

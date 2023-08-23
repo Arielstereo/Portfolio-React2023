@@ -17,9 +17,8 @@ span {
   gap: 0.5rem;
   justify-content: center;
   font-size: 2rem;
-  padding-top: 1.3rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 6rem;
+  padding: 1rem;
+  margin-bottom: 3.5rem;
   background: #00000022;
   border-radius: 2rem;
 }
@@ -54,7 +53,7 @@ li {
   }
 
   .title {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
     font-size: 1.6rem;
   }
 

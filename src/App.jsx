@@ -6,7 +6,7 @@ import Portfolio from "./components/portofio/Portfolio";
 import Contact from './components/contact/Contact'
 
 const App = () => (
-  <div>
+  <div className="color-change-2x">
     <Header />
     <Navbar />
     <About />
