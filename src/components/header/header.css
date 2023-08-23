@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   text-align: center;
 }
 
@@ -61,8 +61,7 @@ header {
 }
 
 .img {
-  width: 75%;
-  margin-right: 5rem;
+  width: 40%;
   object-fit: cover;
 }
 
@@ -72,7 +71,7 @@ header {
   }
 
   .img {
-    width: 80%;
+    width: 60%;
   }
 
   .header__socials {
@@ -87,7 +86,7 @@ header {
   }
 
   .img {
-    width: 100%;
+    width: 80%;
     margin-top: 5rem;
   }
 

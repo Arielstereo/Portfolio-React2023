@@ -1,6 +1,6 @@
 import "./header.css";
 import HeaderBtn from "./HeaderBtn";
-import Dev from "../../assets/dev.png";
+import Dev from "../../assets/pc.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
