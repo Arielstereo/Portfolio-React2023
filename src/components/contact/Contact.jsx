@@ -3,25 +3,28 @@ import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import {BsSend} from "react-icons/bs";
+import { Toaster, toast } from 'sonner'
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_nqyrm79', 'template_4zh2oxi', form.current, 'Of7EFnHz3zmSna4Kc')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      toast.success('Sent message!')
       e.target.reset();
   };
 
 
   return (
     <section className="container" id="contact">
+      <Toaster richColors />
       <h2>Contact me</h2>
       <div className="container__contact">
         <div className="container__card">
@@ -36,7 +39,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Send a message <BsSend />
             </a>
           </article>
           <article className="card__contact">
@@ -50,7 +53,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Send a message <BsSend />
             </a>
           </article>
         </div>

@@ -8,7 +8,9 @@
 }
 
 .portfolio__card:hover {
-  background: #00000036;
+  background: #0000003d;
+  border: 0.2rem solid var(--color-light);
+
 }
 
 .portfolio__img {

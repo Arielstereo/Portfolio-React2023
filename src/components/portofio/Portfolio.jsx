@@ -10,7 +10,7 @@ const Portfolio = () => {
           <article key={item.id} className="portfolio__card">
             <div className="portfolio__title">
             <h3>{item.name}</h3>
-            <span>{item.description}</span>
+            <h4>{item.description}</h4>
             </div>
             <div>
               <img className="portfolio__img" src={item.img} alt="img" />

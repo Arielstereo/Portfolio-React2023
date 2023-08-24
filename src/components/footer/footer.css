@@ -34,6 +34,7 @@ footer {
 
 li a {
   color: var(--color-bg);
+  font-size: 1.3rem;
 }
 
 li a:hover {

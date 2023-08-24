@@ -8,10 +8,10 @@ const Footer = () => {
     <footer>
       <div className="container__logo">
         <h3 className="logo">ArielStereo</h3>
-        <h5 className="copyright">
+        <h4 className="copyright">
           <AiOutlineCopyrightCircle className="icon__copy" />
           Argentina, Buenos Aires 2023
-        </h5>
+        </h4>
       </div>
       <ul className="sections">
         <li>
