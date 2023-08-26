@@ -3,24 +3,29 @@ import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import {BsSend} from "react-icons/bs";
-import { Toaster, toast } from 'sonner'
+import { BsSend } from "react-icons/bs";
+import { Toaster, toast } from "sonner";
 
 const Contact = () => {
   const form = useRef();
 
+  const servicesId = import.meta.env.VITE_SERVICES_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_nqyrm79', 'template_4zh2oxi', form.current, 'Of7EFnHz3zmSna4Kc')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      toast.success('Sent message!')
-      e.target.reset();
+    emailjs.sendForm(servicesId, templateId, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+    toast.success("Sent message!");
+    e.target.reset();
   };
-
 
   return (
     <section className="container" id="contact">
@@ -30,7 +35,7 @@ const Contact = () => {
         <div className="container__card">
           <article className="card__contact">
             <h3 className="card__title">
-              <MdOutlineAlternateEmail/>
+              <MdOutlineAlternateEmail />
               Email
             </h3>
             <h4>arielstereo@msn.com</h4>
@@ -44,7 +49,7 @@ const Contact = () => {
           </article>
           <article className="card__contact">
             <h3 className="card__title">
-              <BsWhatsapp/>
+              <BsWhatsapp />
               WhatsApp
             </h3>
             <h4>+54 11 26922128</h4>

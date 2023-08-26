@@ -10,7 +10,6 @@
 .portfolio__card:hover {
   background: #0000003d;
   border: 0.2rem solid var(--color-light);
-
 }
 
 .portfolio__img {
@@ -21,8 +20,7 @@
 .portfolio__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .portfolio__title {
