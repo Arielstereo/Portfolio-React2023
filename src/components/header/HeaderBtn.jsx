@@ -1,4 +1,4 @@
-import CV from '../../assets/Ariel_Martinez-CV2023.pdf'
+import CV from '../../assets/Ariel_Martinez_CV.pdf'
 
 const HeaderBtn = () => {
   return (
