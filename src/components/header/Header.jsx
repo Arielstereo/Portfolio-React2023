@@ -1,19 +1,17 @@
 import "./header.css";
 import HeaderBtn from "./HeaderBtn";
-import Dev from "../../assets/pc.png";
+import Dev from "../../assets/logo_transparent.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
     <header id="#">
       <div className="container">
-        <h1>Ariel Martinez</h1>
-        <h2>Web Developer</h2>
-        <HeaderBtn />
-        <HeaderSocials />
-        <div>
+        <div className="img__container">
           <img className="img" src={Dev} alt="Dev-img" />
         </div>
+        <HeaderSocials />
+        <HeaderBtn />
       </div>
     </header>
   );

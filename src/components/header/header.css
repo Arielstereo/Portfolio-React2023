@@ -36,8 +36,6 @@ header {
 .btn {
   display: flex;
   gap: 2.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   justify-content: center;
 }
 
@@ -48,7 +46,7 @@ header {
   gap: 1.2rem;
   position: absolute;
   left: 12;
-  bottom: 16rem;
+  bottom: 20rem;
 }
 
 .link__socials {
@@ -60,8 +58,13 @@ header {
   color: var(--color-primary);
 }
 
+.img__container {
+  margin-top:6rem;
+  margin-bottom: 4rem;
+}
+
 .img {
-  width: 40%;
+  width: 65%;
   object-fit: cover;
 }
 
@@ -71,7 +74,7 @@ header {
   }
 
   .img {
-    width: 60%;
+    width: 80%;
   }
 
   .header__socials {
@@ -86,7 +89,7 @@ header {
   }
 
   .img {
-    width: 80%;
+    width: 100%;
     margin-top: 5rem;
   }
 
