@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -35,6 +35,7 @@ header {
 
 .btn {
   display: flex;
+  margin-top: 0.8rem;
   gap: 2.5rem;
   justify-content: center;
 }

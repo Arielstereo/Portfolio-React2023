@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 a {
@@ -19,7 +19,7 @@ nav {
   position: fixed;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 2rem;
+  top: 4rem;
 }
 
 nav a {
@@ -33,4 +33,14 @@ nav a:hover {
 
 nav a.active {
   color: var(--color-yellow);
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+      gap: 1.5rem;   
+  }
+
+  nav {
+    top: 3rem;
+  }
 }

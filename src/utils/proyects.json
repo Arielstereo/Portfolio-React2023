@@ -31,6 +31,14 @@
       "description": "Personal Portfolio Nuxt",
       "github": "https://github.com/Arielstereo/Portfolio",
       "web": "https://portfolio-arielstereo.vercel.app/"
+    },
+    {
+      "id":5,
+      "name": "App-Book",
+      "img": "./book.png",
+      "description": "React proyect",
+      "github": "https://github.com/Arielstereo/app-books",
+      "web": "https://app-books.vercel.app/"
     }
   ]
 }
