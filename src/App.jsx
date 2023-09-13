@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Portfolio from "./components/portofio/Portfolio";
 import Contact from './components/contact/Contact'
 
+
 const App = () => (
   <div className="color-change-2x">
     <Header />
