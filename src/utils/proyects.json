@@ -2,11 +2,11 @@
   "proyects": [
     {
       "id": 1,
-      "name": "E-commerce",
-      "img": "./E-commerce-Next.png",
-      "description": "Next proyect",
-      "github": "https://github.com/Arielstereo/e-commerce-Next",
-      "web": "https://e-commerce-next-arielstereo.vercel.app/"
+      "name": "Booking App",
+      "img": "./Booking.png",
+      "description": "React proyect",
+      "github": "https://github.com/Arielstereo/Booking-client",
+      "web": "https://booking-client-arielstereo.vercel.app/"
     },
     { 
       "id": 2,
@@ -39,6 +39,14 @@
       "description": "React proyect",
       "github": "https://github.com/Arielstereo/app-books",
       "web": "https://app-books.vercel.app/"
+    },
+    {
+      "id": 6,
+      "name": "E-commerce",
+      "img": "./E-commerce-Next.png",
+      "description": "Next proyect",
+      "github": "https://github.com/Arielstereo/e-commerce-Next",
+      "web": "https://e-commerce-next-arielstereo.vercel.app/"
     }
   ]
 }
