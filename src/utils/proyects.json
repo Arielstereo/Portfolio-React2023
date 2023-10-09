@@ -10,11 +10,11 @@
     },
     { 
       "id": 2,
-      "name": "Post-App",
-      "img": "./Posts-App.png",
-      "description": "MERN proyect",
-      "github": "https://github.com/Arielstereo/MERN-Client",
-      "web": "https://post-app-arielstereo.vercel.app/login"
+      "name": "Fake-Store",
+      "img": "./Shopping-Cart.png",
+      "description": "React-MUI",
+      "github": "https://github.com/Arielstereo/FakeStore",
+      "web": "https://fake-store-arielstereo.vercel.app/"
     },
     {
       "id":3,
@@ -47,6 +47,14 @@
       "description": "Next proyect",
       "github": "https://github.com/Arielstereo/e-commerce-Next",
       "web": "https://e-commerce-next-arielstereo.vercel.app/"
+    },
+    { 
+      "id": 7,
+      "name": "Post-App",
+      "img": "./Posts-App.png",
+      "description": "MERN proyect",
+      "github": "https://github.com/Arielstereo/MERN-Client",
+      "web": "https://post-app-arielstereo.vercel.app/login"
     }
   ]
 }
