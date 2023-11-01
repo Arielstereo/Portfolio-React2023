@@ -2,49 +2,50 @@
   "proyects": [
     {
       "id": 1,
+      "name": "MP-Clon",
+      "img": "./MP.png",
+      "description": "MERN - Zustand - Tailwind",
+      "github": "https://github.com/Arielstereo/mp-client",
+      "web": "https://mp-client-arielstereo.vercel.app/"
+    },
+    {
+      "id": 2,
       "name": "Booking App",
       "img": "./Booking.png",
-      "description": "React proyect",
+      "description": "React - Zustand - Tailwind",
       "github": "https://github.com/Arielstereo/Booking-client",
       "web": "https://booking-client-arielstereo.vercel.app/"
     },
     { 
-      "id": 2,
+      "id": 3,
       "name": "Fake-Store",
       "img": "./Shopping-Cart.png",
-      "description": "React-MUI",
+      "description": "React - Material UI",
       "github": "https://github.com/Arielstereo/FakeStore",
       "web": "https://fake-store-arielstereo.vercel.app/"
     },
     {
-      "id":3,
+      "id":4,
       "name": "Consortia",
       "img": "./S-O-S-Consortia.png",
-      "description": "Colaboration MERN proyect",
+      "description": "MERN - Typescript (colaboration)",
       "github": "https://github.com/Arielstereo/Consortia-NoCountry",
       "web": "https://sos-consortia.onrender.com/"
     },
     {
-      "id":4,
+      "id":5,
       "name": "Portfolio 2022",
       "img": "./portfolioNuxt.png",
-      "description": "Personal Portfolio Nuxt",
+      "description": "Vue (Nuxt.js)",
       "github": "https://github.com/Arielstereo/Portfolio",
       "web": "https://portfolio-arielstereo.vercel.app/"
     },
-    {
-      "id":5,
-      "name": "App-Book",
-      "img": "./book.png",
-      "description": "React proyect",
-      "github": "https://github.com/Arielstereo/app-books",
-      "web": "https://app-books.vercel.app/"
-    },
+   
     {
       "id": 6,
       "name": "E-commerce",
       "img": "./E-commerce-Next.png",
-      "description": "Next proyect",
+      "description": "React (Next.js)",
       "github": "https://github.com/Arielstereo/e-commerce-Next",
       "web": "https://e-commerce-next-arielstereo.vercel.app/"
     },
@@ -52,9 +53,17 @@
       "id": 7,
       "name": "Post-App",
       "img": "./Posts-App.png",
-      "description": "MERN proyect",
+      "description": "MERN",
       "github": "https://github.com/Arielstereo/MERN-Client",
       "web": "https://post-app-arielstereo.vercel.app/login"
+    },
+    {
+      "id":8,
+      "name": "App-Book",
+      "img": "./book.png",
+      "description": "React",
+      "github": "https://github.com/Arielstereo/app-books",
+      "web": "https://app-books.vercel.app/"
     }
   ]
 }
