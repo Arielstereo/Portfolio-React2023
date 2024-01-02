@@ -62,13 +62,13 @@ const About = () => {
               <BsCheck className="icon__li" /> <h3>HTML - CSS - JavaScript</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h3>React.js</h3>
+              <BsCheck className="icon__li" /> <h3>React.js - Next.js</h3>
             </li>
             <li>
               <BsCheck className="icon__li" /> <h3>Node.js (Express)</h3>
             </li>
             <li>
-              <BsCheck className="icon__li" /> <h3>MongoDB</h3>
+              <BsCheck className="icon__li" /> <h3>MongoDB -MySql</h3>
             </li>
             <li>
               <BsCheck className="icon__li" /> <h3>Tailwind.css</h3>

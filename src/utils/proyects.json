@@ -9,20 +9,20 @@
       "web": "https://mp-client-arielstereo.vercel.app/"
     },
     {
-      "id": 2,
-      "name": "Booking App",
-      "img": "./Booking.png",
-      "description": "React - Zustand - Tailwind",
-      "github": "https://github.com/Arielstereo/Booking-client",
-      "web": "https://booking-client-arielstereo.vercel.app/"
-    },
+      "id":2,
+      "name": "CookGpt",
+      "img": "./demo.png",
+      "description": "React-Node (colaboration)",
+      "github": "https://github.com/Arielstereo/CookGpt-NoCountry",
+      "web": "https://chefgpt-lnox.onrender.com/"
+    }, 
     { 
       "id": 3,
-      "name": "Fake-Store",
-      "img": "./Shopping-Cart.png",
-      "description": "React - Material UI",
-      "github": "https://github.com/Arielstereo/FakeStore",
-      "web": "https://fake-store-arielstereo.vercel.app/"
+      "name": "Post-App",
+      "img": "./Posts-App.png",
+      "description": "MERN",
+      "github": "https://github.com/Arielstereo/MERN-Client",
+      "web": "https://post-app-arielstereo.vercel.app/login"
     },
     {
       "id":4,
@@ -51,12 +51,13 @@
     },
     { 
       "id": 7,
-      "name": "Post-App",
-      "img": "./Posts-App.png",
-      "description": "MERN",
-      "github": "https://github.com/Arielstereo/MERN-Client",
-      "web": "https://post-app-arielstereo.vercel.app/login"
-    },
+      "name": "Fake-Store",
+      "img": "./Shopping-Cart.png",
+      "description": "React - Material UI",
+      "github": "https://github.com/Arielstereo/FakeStore",
+      "web": "https://fake-store-arielstereo.vercel.app/"
+    }
+   ,
     {
       "id":8,
       "name": "App-Book",
@@ -64,6 +65,14 @@
       "description": "React",
       "github": "https://github.com/Arielstereo/app-books",
       "web": "https://app-books.vercel.app/"
+    },
+    {
+      "id": 9,
+      "name": "Booking App",
+      "img": "./Booking.png",
+      "description": "React - Zustand - Tailwind",
+      "github": "https://github.com/Arielstereo/Booking-client",
+      "web": "https://booking-client-arielstereo.vercel.app/"
     }
   ]
 }

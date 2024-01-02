@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="container__logo">
-        <h3 className="logo">ArielStereo</h3>
+        <h3 className="logo">Ariel Martinez</h3>
         <h4 className="copyright">
           <AiOutlineCopyrightCircle className="icon__copy" />
           Argentina, Buenos Aires 2023
