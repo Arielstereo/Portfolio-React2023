@@ -6,7 +6,7 @@ const HeaderSocials = () => {
   return (
     <motion.div className="header__socials">
       <motion.a
-        initial={{ x: -100 }}
+        initial={{ x: -200 }}
         animate={{ x: 0 }}
         transition={{ ease: "easeOut", duration: 2 }}
         className="link__socials"
@@ -17,7 +17,7 @@ const HeaderSocials = () => {
         <BsLinkedin />
       </motion.a>
       <motion.a
-        initial={{ x: 100 }}
+        initial={{ x: 200 }}
         animate={{ x: 0 }}
         transition={{ ease: "easeOut", duration: 2 }}
         className="link__socials"
@@ -28,8 +28,8 @@ const HeaderSocials = () => {
         <BsGithub />
       </motion.a>
       <motion.a
-        initial={{ x: -100 }}
-        animate={{ x: 0 }}
+        initial={{ y: 200 }}
+        animate={{ y: 0 }}
         transition={{ ease: "easeOut", duration: 2 }}
         className="link__socials"
         href="mailto:arielstereo@msn.com"

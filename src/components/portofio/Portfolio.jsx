@@ -8,38 +8,46 @@ const Portfolio = () => {
       <h2>Portofolio</h2>
       <div className="portfolio__container">
         {proyects.proyects.map((item) => (
-          <article
-          
-            key={item.id}
-            className="portfolio__card"
-          >
+          <article key={item.id} className="portfolio__card">
             <div className="portfolio__title">
               <h3>{item.name}</h3>
               <h4>{item.description}</h4>
             </div>
-            <motion.div   whileHover={{ scale: 1.2}}
-            whileTap={{
-              scale: 0.8,
-            }}>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{
+                scale: 0.8,
+              }}
+            >
               <img className="portfolio__img" src={item.img} alt="img" />
             </motion.div>
             <div className="btn">
-              <a
+              <motion.a
+                  whileHover={{ 
+                    scale: 1.1, 
+                    textShadow: "0px 0px 8px rgb(255,255,255)",
+                    boxShadow: "0px 0px 8px rgb(255,255,255)",
+                  }}
                 className="btn__primary"
                 href={item.github}
                 target="_blank"
                 rel="noreferrer"
               >
                 Github
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileHover={{ 
+                  scale: 1.1, 
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
                 className="btn__secondary"
                 href={item.web}
                 target="_blank"
                 rel="noreferrer"
               >
                 Live Demo
-              </a>
+              </motion.a>
             </div>
           </article>
         ))}
