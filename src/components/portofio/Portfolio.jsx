@@ -6,13 +6,10 @@ const Portfolio = () => {
   return (
     <section className="container" id="portfolio">
       <h2>Portofolio</h2>
-      <motion.div className="portfolio__container">
+      <div className="portfolio__container">
         {proyects.proyects.map((item) => (
-          <motion.article
-            whileHover={{ scale: 1.2 }}
-            whileTap={{
-              scale: 0.8,
-            }}
+          <article
+          
             key={item.id}
             className="portfolio__card"
           >
@@ -20,9 +17,12 @@ const Portfolio = () => {
               <h3>{item.name}</h3>
               <h4>{item.description}</h4>
             </div>
-            <div>
+            <motion.div   whileHover={{ scale: 1.2}}
+            whileTap={{
+              scale: 0.8,
+            }}>
               <img className="portfolio__img" src={item.img} alt="img" />
-            </div>
+            </motion.div>
             <div className="btn">
               <a
                 className="btn__primary"
@@ -41,9 +41,9 @@ const Portfolio = () => {
                 Live Demo
               </a>
             </div>
-          </motion.article>
+          </article>
         ))}
-      </motion.div>
+      </div>
     </section>
   );
 };
