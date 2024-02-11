@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Tesla-Shop",
-      "img": "./Shop.png",
+      "img": "./tesla.mp4",
       "description": "Next - Zustand - Tailwind",
       "github": "https://github.com/Arielstereo/Tesla-Shop",
       "web": "https://tesla-shop-arielstereo.vercel.app/"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "MP-Clon",
-      "img": "./MP.png",
+      "img": "./video_MP.mp4",
       "description": "MERN - Zustand - Tailwind",
       "github": "https://github.com/Arielstereo/mp-client",
       "web": "https://mp-client-arielstereo.vercel.app/"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "CookGpt",
-      "img": "./demo.png",
+      "img": "./demo.mp4",
       "description": "React-Node (colaboration)",
       "github": "https://github.com/Arielstereo/CookGpt-NoCountry",
       "web": "https://chefgpt-lnox.onrender.com/"
@@ -27,44 +27,18 @@
     {
       "id": 4,
       "name": "Post-App",
-      "img": "./Posts-App.png",
+      "img": "./Screenshot.mp4",
       "description": "MERN",
       "github": "https://github.com/Arielstereo/MERN-Client",
       "web": "https://post-app-arielstereo.vercel.app/login"
     },
     {
-      "id": 5,
-      "name": "Consortia",
-      "img": "./S-O-S-Consortia.png",
-      "description": "MERN - Typescript (colaboration)",
-      "github": "https://github.com/Arielstereo/Consortia-NoCountry",
-      "web": "https://sos-consortia.onrender.com/"
-    },
-    {
-      "id": 6,
-      "name": "Portfolio 2022",
-      "img": "./portfolioNuxt.png",
-      "description": "Vue (Nuxt.js)",
-      "github": "https://github.com/Arielstereo/Portfolio",
-      "web": "https://portfolio-arielstereo.vercel.app/"
-    },
-
-    {
       "id": 7,
       "name": "E-commerce",
-      "img": "./E-commerce-Next.png",
+      "img": "./E-commerce-Next.mp4",
       "description": "React (Next.js)",
       "github": "https://github.com/Arielstereo/e-commerce-Next",
       "web": "https://e-commerce-next-arielstereo.vercel.app/"
-    },
-
-    {
-      "id": 8,
-      "name": "Booking App",
-      "img": "./Booking.png",
-      "description": "React - Zustand - Tailwind",
-      "github": "https://github.com/Arielstereo/Booking-client",
-      "web": "https://booking-client-arielstereo.vercel.app/"
     }
   ]
 }

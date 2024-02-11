@@ -1,6 +1,7 @@
 import "./portfolio.css";
 import proyects from "../../utils/proyects.json";
 import { motion } from "framer-motion";
+import ReactPlayer from "react-player";
 
 const Portfolio = () => {
   return (
@@ -13,21 +14,29 @@ const Portfolio = () => {
               <h3>{item.name}</h3>
               <h4>{item.description}</h4>
             </div>
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.2 }}
               whileTap={{
                 scale: 0.8,
               }}
             >
               <img className="portfolio__img" src={item.img} alt="img" />
-            </motion.div>
+            </motion.div> */}
+            <div className="portfolio__img">
+              <ReactPlayer
+                url={item.img}
+                width="100%"
+                height="100%"
+                controls={true} 
+              />
+            </div>
             <div className="btn">
               <motion.a
-                  whileHover={{ 
-                    scale: 1.1, 
-                    textShadow: "0px 0px 8px rgb(255,255,255)",
-                    boxShadow: "0px 0px 8px rgb(255,255,255)",
-                  }}
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
                 className="btn__primary"
                 href={item.github}
                 target="_blank"
@@ -36,8 +45,8 @@ const Portfolio = () => {
                 Github
               </motion.a>
               <motion.a
-                whileHover={{ 
-                  scale: 1.1, 
+                whileHover={{
+                  scale: 1.1,
                   textShadow: "0px 0px 8px rgb(255,255,255)",
                   boxShadow: "0px 0px 8px rgb(255,255,255)",
                 }}
