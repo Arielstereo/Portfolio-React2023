@@ -25,6 +25,15 @@ const Navbar = () => {
         About
       </Link>
       <Link
+        to="skills"
+        smooth
+        duration={500}
+        onClick={() => setActive("skills")}
+        className={active === "skills" ? "active" : ""}
+      >
+        Skills
+      </Link>
+      <Link
         to="portfolio"
         smooth
         duration={500}

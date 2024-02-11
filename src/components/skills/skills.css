@@ -1,0 +1,8 @@
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slider-container {
+  margin-top: 10rem;
+}

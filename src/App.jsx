@@ -4,6 +4,7 @@ import About from './components/about/About';
 import Footer from './components/footer/Footer';
 import Portfolio from "./components/portofio/Portfolio";
 import Contact from './components/contact/Contact'
+import Skills from "./components/skills/Skills";
 
 
 const App = () => (
@@ -11,6 +12,7 @@ const App = () => (
     <Header />
     <Navbar />
     <About />
+    <Skills/>
     <Portfolio />
     <Contact/>
     <Footer />
