@@ -7,6 +7,7 @@ const Portfolio = () => {
   return (
     <section className="container" id="portfolio">
       <h2>Portofolio</h2>
+      <h4>Proyects</h4>
       <div className="portfolio__container">
         {proyects.proyects.map((item) => (
           <article key={item.id} className="portfolio__card">
@@ -14,14 +15,6 @@ const Portfolio = () => {
               <h3>{item.name}</h3>
               <h4>{item.description}</h4>
             </div>
-            {/* <motion.div
-              whileHover={{ scale: 1.2 }}
-              whileTap={{
-                scale: 0.8,
-              }}
-            >
-              <img className="portfolio__img" src={item.img} alt="img" />
-            </motion.div> */}
             <div className="portfolio__img">
               <ReactPlayer
                 url={item.img}
