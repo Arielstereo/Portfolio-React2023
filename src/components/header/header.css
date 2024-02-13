@@ -71,8 +71,8 @@ header {
 
 .loader_pacman {
   position: absolute;
-  top: 68%;
-  left:100px;
+  bottom: 100px;
+  left:250px;
   width: 50px;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -119,6 +119,10 @@ header {
 
   .btn a {
     font-size: 0.8rem;
+  }
+
+  .loader_pacman{
+    display: none;
   }
 
 }
