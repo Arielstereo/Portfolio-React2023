@@ -17,7 +17,11 @@ const About = () => {
               <BsCheck className="icon__li" />
               <h3>No Country (emulation 2023)</h3>
             </li>
+            <li>
+            <div className="loader_about"></div>
+            </li>
           </ul>
+         
         </div>
       </div>
     </section>

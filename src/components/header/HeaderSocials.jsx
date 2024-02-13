@@ -8,7 +8,7 @@ const HeaderSocials = () => {
       <motion.a
         initial={{ x: -200 }}
         animate={{ x: 0 }}
-        transition={{ ease: "easeOut", duration: 2 }}
+        transition={{ ease: "easeOut", duration: 4 }}
         className="link__socials"
         href="https://www.linkedin.com/in/arielstereo/"
         target="_blank"
@@ -19,7 +19,7 @@ const HeaderSocials = () => {
       <motion.a
         initial={{ x: 200 }}
         animate={{ x: 0 }}
-        transition={{ ease: "easeOut", duration: 2 }}
+        transition={{ ease: "easeOut", duration: 4 }}
         className="link__socials"
         href="https://github.com/Arielstereo/"
         target="_blank"
@@ -30,7 +30,7 @@ const HeaderSocials = () => {
       <motion.a
         initial={{ y: 200 }}
         animate={{ y: 0 }}
-        transition={{ ease: "easeOut", duration: 2 }}
+        transition={{ ease: "easeOut", duration: 4 }}
         className="link__socials"
         href="mailto:arielstereo@msn.com"
       >
