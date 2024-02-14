@@ -101,7 +101,7 @@ const Contact = () => {
               type="submit"
               className="btn__contact"
             >
-              Submit
+              SEND
             </motion.button>
           </form>
         </div>

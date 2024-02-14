@@ -94,7 +94,7 @@ textarea::placeholder {
 }
 
 .btn__contact:hover {
-  background: greenyellow;
+  background: skyblue;
   color: black;
   font-weight: bold
 }
