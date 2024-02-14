@@ -141,7 +141,7 @@ textarea::placeholder {
     gap: 1rem;
   }
 
-  .card__contact {
+  .card__contact, .card__contact2 {
     display: none;
   }
 
