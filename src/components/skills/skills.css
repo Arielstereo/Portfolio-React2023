@@ -49,10 +49,20 @@
 .span-3{
   color:skyblue;
   font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
 }
 .span-2{
-  font-size:3rem
+  font-size:3rem;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title_skill{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap: 25px;
 }
 
 @media screen and (max-width: 600px) {
@@ -63,11 +73,21 @@
 .span-3{
   color:skyblue;
   font-size: 1.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-top: 8px;
 }
 .span-2{
   font-size:1.5rem;
   padding-top: 8px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title_skill{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap: 12px;
+}
+.loader {
+  display: none;
 }
 }

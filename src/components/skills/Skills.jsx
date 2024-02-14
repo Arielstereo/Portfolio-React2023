@@ -11,6 +11,7 @@ import {
   SiMysql,
   SiJavascript,
 } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const settings = {
@@ -25,14 +26,13 @@ const Skills = () => {
   return (
     <section className="container" id="skills">
       <h2>Skills</h2>
-      
+
       <h4>Education</h4>
       <div className="slider-container">
-      <div>
-         
-            <div className="description">
-              <img className="img_utn" src="./utn_logo.jpg" alt="utn" />
-            </div>
+        <div>
+          <div className="description">
+            <img className="img_utn" src="./utn_logo.jpg" alt="utn" />
+          </div>
         </div>
         <Slider {...settings}>
           <div title="react">
@@ -64,11 +64,14 @@ const Skills = () => {
           </div>
         </Slider>
       </div>
-      <div className="title">
-          <div className="loader"></div>
-            <span className="span-1">FullStack</span> <span className="span-2">Web</span> <span className="span-3">Developer</span>
-            <div className="loader"></div>
-          </div>
+      <div className="title_skill">
+        <motion.span whileHover={{ scale: 1.2 }} className="span-1">
+          FullStack
+        </motion.span>
+        <motion.span whileHover={{ rotate:360}} className="span-2">Web</motion.span>
+        <motion.span whileHover={{scale:1.2}} className="span-3">Developer</motion.span>
+        <div className="loader"></div>
+      </div>
     </section>
   );
 };

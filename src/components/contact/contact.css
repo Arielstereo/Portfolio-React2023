@@ -22,16 +22,25 @@
   gap: 0.8rem;
 }
 
-.card__contact:hover {
-  background: #0000003d;
-  border: 0.2rem solid var(--color-light);
+
+
+[glow] .card__contact{
+  background: skyblue;
+}
+.card__contact2{
+  border: 0.2rem solid var(--color-primary);
+  background: #0000007b;
+  padding: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
 }
 
-article a:hover {
-  color: var(--color-green);
-  font-weight: bold;
+[glow] .card__contact2{
+  background: purple;
 }
-
 .card__title {
   display: flex;
   justify-content: center;
@@ -72,6 +81,24 @@ input::placeholder {
 textarea::placeholder {
   color: var(--color-light);
 }
+
+.btn__contact {
+  color: var(--color-light);
+  background: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid var(--color-light);
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn__contact:hover {
+  background: greenyellow;
+  color: black;
+  font-weight: bold
+}
+
 
 @media screen and (max-width: 1024px)  {
 

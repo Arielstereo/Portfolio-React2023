@@ -18,10 +18,9 @@ const About = () => {
               <h3>No Country (emulation 2023)</h3>
             </li>
             <li>
-            <div className="loader_about"></div>
+              <div className="loader_about"></div>
             </li>
           </ul>
-         
         </div>
       </div>
     </section>

@@ -3,8 +3,9 @@ import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { BsSend } from "react-icons/bs";
 import { Toaster, toast } from "sonner";
+import { Glow, GlowCapture } from "@codaworks/react-glow";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
@@ -31,37 +32,45 @@ const Contact = () => {
     <section className="container" id="contact">
       <Toaster richColors />
       <h2>Contact me</h2>
+      <h4>Send me a message</h4>
       <div className="container__contact">
         <div className="container__card">
-          <article className="card__contact">
-            <h3 className="card__title">
-              <MdOutlineAlternateEmail />
-              Email
-            </h3>
-            <h4>arielstereo@msn.com</h4>
-            <a
-              href="mailto:arielstereo@msn.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message <BsSend />
-            </a>
-          </article>
-          <article className="card__contact">
-            <h3 className="card__title">
-              <BsWhatsapp />
-              WhatsApp
-            </h3>
-            <h4>+54 11 26922128</h4>
-            <a
-              href="https://api.whatsapp.com/send?phone=1126922128"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message <BsSend />
-            </a>
-          </article>
+          <GlowCapture>
+            <Glow>
+              <a
+                href="mailto:arielstereo@msn.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <article className="card__contact">
+                  <h3 className="card__title">
+                    <MdOutlineAlternateEmail />
+                    Email
+                  </h3>
+                  <h4>arielstereo@msn.com</h4>
+                </article>
+              </a>
+            </Glow>
+          </GlowCapture>
+          <GlowCapture>
+            <Glow>
+              <a
+                href="https://api.whatsapp.com/send?phone=1126922128"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <article className="card__contact2">
+                  <h3 className="card__title">
+                    <BsWhatsapp />
+                    WhatsApp
+                  </h3>
+                  <h4>+54 11 26922128</h4>
+                </article>
+              </a>
+            </Glow>
+          </GlowCapture>
         </div>
+
         <div>
           <form ref={form} onSubmit={sendEmail}>
             <label htmlFor="">Full name</label>
@@ -80,9 +89,20 @@ const Contact = () => {
               placeholder="Send message"
               required
             ></textarea>
-            <button type="submit" className="btn__primary">
+            <motion.button
+              initial={{ x: -500 }}
+              animate={{ x: 0 }}
+              transition={{ ease: "backInOut", duration: 1 }}
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+              type="submit"
+              className="btn__contact"
+            >
               Submit
-            </button>
+            </motion.button>
           </form>
         </div>
       </div>
