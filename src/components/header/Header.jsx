@@ -3,8 +3,14 @@ import HeaderBtn from "./HeaderBtn";
 import Dev from "../../assets/logo_transparent.png";
 import HeaderSocials from "./HeaderSocials";
 import { motion } from "framer-motion";
+import confetti from 'canvas-confetti'
 
 const Header = () => {
+  confetti({
+    particleCount: 300,
+    spread: 100,
+    origin: { y: 0.7 }
+  });
   return (
     <header id="#">
       <div className="container">
