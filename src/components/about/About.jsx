@@ -7,7 +7,8 @@ const About = () => {
       <h2>About Me</h2>
       <h4>Experience</h4>
       <div className="card__group">
-        <img className="about-img" src="./pc.png" alt="pc" />
+        <img className="desktop-img" src="./laptop.png" alt="pc" />
+        <img className="mobile-img" src="./phone.png" alt="phone" />
         <div className="card">
           <ul>
             <li>

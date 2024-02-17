@@ -37,17 +37,21 @@ li {
 
 .icon__li {
   font-size: 3rem;
-  color: green;
+  color: rgb(12, 242, 24);
 }
 
 .card {
-  margin-top:1rem;
+  margin-top:6rem;
   margin-bottom: 2rem;
 }
 
-.about-img{
+.desktop-img{
   width:50%;
   height: 90%;
+}
+
+.mobile-img{
+  display: none;
 }
 
 .loader_about {
@@ -133,8 +137,11 @@ li {
     margin-top: 0.3rem;
     font-size: 1.5rem;
   }
-  .about-img{
-    width:80%;
-    height: 50%;
+  .desktop-img{
+  display: none;
+  }
+  .mobile-img{
+    display: block;
+    width:60%
   }
 }
